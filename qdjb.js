@@ -5,11 +5,11 @@
 let Cookie = $prefs.valueForKey("ssrenCookie");
 
 let Req = {
-  url: "https://xn--gmqz83awjh.org/user/trafficlog",
+  url: "https://xn--gmqz83awjh.org/auth/login",
   method: "POST",
   headers: {
     Cookie: Cookie,
-    Origin: "https://xn--gmqz83awjh.org/user",
+    Origin: "https://xn--gmqz83awjh.org",
     Referer: "https://xn--gmqz83awjh.org/user",
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1"
   }
